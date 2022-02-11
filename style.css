@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+    text-align: center;
+}
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar{
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    position: -moz-sticky; /* mozilla*/
+}
+
+.logo{
+    width: -200%;
+    height: 50px;
+    margin-right: 10px;
+}
+.collapse{
+    margin-left: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+.nav-link:hover{
+    border: #e5c283 1px;
+    border-radius: 10px;
+    color: black !important;
+    background-color: #e5c283;
+    opacity: 0.3;
+    font-weight: bold;
+  
+}
+.img{
+    width: 100%;
+
+}
+
+.btn{
+    color: 364f5e !important;
+    border: 1px solid #364f5e !important;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #364f5e;
+    color: white;
+    letter-spacing: 5px;
+    
+}
+.breif{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.par{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+.h{
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+.flexbox{
+    font-weight: bold;
+    border: 1px solid #e5c283;
+    border-radius: 20px;
+    text-align: left;
+    background-color: #e5c283;
+    color: white;
+    border-width: 33%;
+    margin: 20px;
+    padding-bottom: 25px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.7;
+}
+.READMORE{
+   width: 50px;
+   margin-right: 5px;
+}
+.readmore{
+    border: white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #364f5e !important;
+ 
+   
+}
+/**
+.readmore:hover{
+    background-color: #364f5e !important;
+    color: white !important;
+}
+.READMORE:hover{
+    background-color: #364f5e !important;
+    color: white !important;
+}
+*/
+.readmore:hover{
+    border:2px solid #364f5e !important;
+    
+}
+.footer{
+    border: #364f5e;
+    color: white;
+    font-weight: bold;
+    background-color: #364f5e;
+    margin-top: 50px;
+
+}
+.cont{
+    padding-top: 30px;
+    word-spacing: 2px;
+}
+
+.social{
+display: flex;
+color: white !important;
+justify-content: center;
+text-align: center;
+}
+.social li{
+    list-style: none;
+}
+.social li a{
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.rights{
+    padding-bottom: 20px;
+}
+.history-articles{
+    text-align: left;
+    margin-left: 10px;
+}
+.history-h2{
+color: #364f5e;
+font-weight: bold;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.art{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    text-align: left;
+}
+/*.navbar{
+    background-color: rgb(217, 230, 230);
+}*/
+.iframe{
+  justify-content: center;
+  text-align: center;
+  margin-left: 335px;
+}
+.col-md {
+    flex: 1 0 0%;
+    min-height: 0;
+    min-width: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:20px ;
+}
+.col-100 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+.back{
+  margin-left:35% ;
+}
+.quiz{
+  
+  background-color: lightgray;
+  width: 360px;
+    transition: .2s;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.arch{
+  color: #364f5e;
+  font-weight: bold;
+}
+.king{
+    max-height: 120px;
+    max-width: 225px;
+    display: block;
+    margin: 0 auto 5px;
+    padding-top: 5px;
+}
+.title{
+  color: #364f5e;
+  font-weight: bold;
+}
+.step{
+margin-bottom: 20px;
+width: 50%;
+margin-left: 335px;
+}
+.rhomboidal{
+  margin-bottom: 20px;
+  width: 50%;
+  margin-left: 335px;
+}
+.p{
+    color: #364f5e;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+.print{
+    width: 50px;
+    margin-right: 5px;
+}
+/*.print:hover{
+    color: white;
+}*/
+.PRINT{
+    border: #364f5e;
+    background-color: rgb(217, 230, 230);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black !important;
+}
+.PRINT:hover{
+
+    color: white;
+    letter-spacing: 5px;
+}
+.labels{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.share{
+    width: 50px;
+    margin-right: 5px;
+}
+.SHARE{
+    border: #364f5e;
+    background-color: rgb(217, 230, 230);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black !important;
+}
+.SHARE:hover{
+    
+    color: white;
+    letter-spacing: 5px;
+}
+.more{
+    width: 50px;
+    margin-right: 5px;
+}
+.MORE{
+    border: #364f5e;
+    background-color: rgb(217, 230, 230);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black !important;
+}
+.MORE:hover{
+    
+    color: white;
+    letter-spacing: 5px;
+}
+.design{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 20px;
+        text-align: left;
+    
+}
+.des{
+    color: #364f5e;
+    font-weight: bold;
+}
+.khufu{
+    margin-bottom: 20px;
+width: 50%;
+margin-left: 335px;
+}
+.card{
+    margin-bottom: 20px;
+width: 50%;
+margin-left: 335px;
+}
+.discover{
+    margin: 20px;
+}
+.contact{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.Personalinformation{
+    border: 1px;
+    width: 50%;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #f3f3f3;
+    opacity: 0.7;
+}
+.log{
+    padding-top: 30px;
+    color: #364f5e;
+    font-weight: bold;
+}
+.logg{
+    margin-bottom: 30px;
+    color: #364f5e;
+    font-weight: bold;
+}
+.sora{
+    width: 40px;
+}
+.submit{
+    color: 364f5e !important;
+    border: 1px solid #364f5e !important;
+    font-weight: bold;
+    margin-bottom: 20px;
+   font-weight: bold;
+   padding-left: 5%;
+   padding-right: 5%;
+   border-radius: 5px;
+}
+
+.submit:hover{
+    background-color: #364f5e;
+    color: white;
+    letter-spacing: 5px;
+    
+}
+.signup{
+    color: 364f5e !important;
+    border: 1px solid #364f5e !important;
+    font-weight: bold;
+    margin-bottom: 30px;
+   font-weight: bold;
+   padding-left: 5%;
+   padding-right: 5%;
+   border-radius: 5px;
+   
+}
+.signup:hover{
+    background-color: #364f5e;
+    color: white;
+    letter-spacing: 5px;
+    
+}
+.or{
+    color: #364f5e;
+    font-weight: bold;
+}
+
+/*media queries*/
